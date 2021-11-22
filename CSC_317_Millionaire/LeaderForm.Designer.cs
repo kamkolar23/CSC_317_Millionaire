@@ -32,12 +32,13 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.lblLeaderboardTitle = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.lblHighScoreTitle = new System.Windows.Forms.Label();
             this.lblScore2Title = new System.Windows.Forms.Label();
             this.lblScore3Title = new System.Windows.Forms.Label();
             this.lblScore4Title = new System.Windows.Forms.Label();
             this.lblScore5Title = new System.Windows.Forms.Label();
+            this.btnLeaderMainMenu = new System.Windows.Forms.Button();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.lblHighScore = new System.Windows.Forms.Label();
             this.lblScore2 = new System.Windows.Forms.Label();
             this.lblScore3 = new System.Windows.Forms.Label();
@@ -49,7 +50,6 @@ namespace CSC_317_Millionaire
             this.lblScore3Name = new System.Windows.Forms.Label();
             this.lblScore4Name = new System.Windows.Forms.Label();
             this.lblScore5Name = new System.Windows.Forms.Label();
-            this.btnLeaderMainMenu = new System.Windows.Forms.Button();
             this.btnLeaderExitGame = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
@@ -61,24 +61,25 @@ namespace CSC_317_Millionaire
             // 
             this.tableLayoutPanel1.BackColor = System.Drawing.Color.DarkSlateBlue;
             this.tableLayoutPanel1.ColumnCount = 5;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 42F));
             this.tableLayoutPanel1.Controls.Add(this.lblLeaderboardTitle, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 2);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 2, 2);
             this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel4, 3, 2);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 4;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 450);
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1600, 865);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // lblLeaderboardTitle
@@ -88,9 +89,10 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel1.SetColumnSpan(this.lblLeaderboardTitle, 3);
             this.lblLeaderboardTitle.Font = new System.Drawing.Font("Copperplate Gothic Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblLeaderboardTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblLeaderboardTitle.Location = new System.Drawing.Point(206, 44);
+            this.lblLeaderboardTitle.Location = new System.Drawing.Point(413, 83);
+            this.lblLeaderboardTitle.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblLeaderboardTitle.Name = "lblLeaderboardTitle";
-            this.lblLeaderboardTitle.Size = new System.Drawing.Size(386, 53);
+            this.lblLeaderboardTitle.Size = new System.Drawing.Size(772, 107);
             this.lblLeaderboardTitle.TabIndex = 0;
             this.lblLeaderboardTitle.Text = "Leaderboard";
             // 
@@ -105,7 +107,8 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel2.Controls.Add(this.lblScore5Title, 0, 4);
             this.tableLayoutPanel2.Controls.Add(this.btnLeaderMainMenu, 0, 5);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(23, 125);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(46, 241);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 6;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -113,9 +116,83 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(247, 301);
+            this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 77F));
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(494, 579);
             this.tableLayoutPanel2.TabIndex = 1;
+            // 
+            // lblHighScoreTitle
+            // 
+            this.lblHighScoreTitle.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblHighScoreTitle.AutoSize = true;
+            this.lblHighScoreTitle.Font = new System.Drawing.Font("Copperplate Gothic Light", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHighScoreTitle.Location = new System.Drawing.Point(88, 18);
+            this.lblHighScoreTitle.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblHighScoreTitle.Name = "lblHighScoreTitle";
+            this.lblHighScoreTitle.Size = new System.Drawing.Size(400, 63);
+            this.lblHighScoreTitle.TabIndex = 0;
+            this.lblHighScoreTitle.Text = "High Score:";
+            // 
+            // lblScore2Title
+            // 
+            this.lblScore2Title.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblScore2Title.AutoSize = true;
+            this.lblScore2Title.Font = new System.Drawing.Font("Copperplate Gothic Light", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScore2Title.Location = new System.Drawing.Point(121, 118);
+            this.lblScore2Title.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblScore2Title.Name = "lblScore2Title";
+            this.lblScore2Title.Size = new System.Drawing.Size(367, 63);
+            this.lblScore2Title.TabIndex = 1;
+            this.lblScore2Title.Text = "2nd Place:";
+            // 
+            // lblScore3Title
+            // 
+            this.lblScore3Title.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblScore3Title.AutoSize = true;
+            this.lblScore3Title.Font = new System.Drawing.Font("Copperplate Gothic Light", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScore3Title.Location = new System.Drawing.Point(125, 218);
+            this.lblScore3Title.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblScore3Title.Name = "lblScore3Title";
+            this.lblScore3Title.Size = new System.Drawing.Size(363, 63);
+            this.lblScore3Title.TabIndex = 2;
+            this.lblScore3Title.Text = "3rd Place:";
+            // 
+            // lblScore4Title
+            // 
+            this.lblScore4Title.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblScore4Title.AutoSize = true;
+            this.lblScore4Title.Font = new System.Drawing.Font("Copperplate Gothic Light", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScore4Title.Location = new System.Drawing.Point(131, 318);
+            this.lblScore4Title.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblScore4Title.Name = "lblScore4Title";
+            this.lblScore4Title.Size = new System.Drawing.Size(357, 63);
+            this.lblScore4Title.TabIndex = 3;
+            this.lblScore4Title.Text = "4th Place:";
+            // 
+            // lblScore5Title
+            // 
+            this.lblScore5Title.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.lblScore5Title.AutoSize = true;
+            this.lblScore5Title.Font = new System.Drawing.Font("Copperplate Gothic Light", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblScore5Title.Location = new System.Drawing.Point(131, 418);
+            this.lblScore5Title.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.lblScore5Title.Name = "lblScore5Title";
+            this.lblScore5Title.Size = new System.Drawing.Size(357, 63);
+            this.lblScore5Title.TabIndex = 4;
+            this.lblScore5Title.Text = "5th Place:";
+            // 
+            // btnLeaderMainMenu
+            // 
+            this.btnLeaderMainMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.btnLeaderMainMenu.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnLeaderMainMenu.Font = new System.Drawing.Font("Copperplate Gothic Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLeaderMainMenu.Location = new System.Drawing.Point(6, 506);
+            this.btnLeaderMainMenu.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.btnLeaderMainMenu.Name = "btnLeaderMainMenu";
+            this.btnLeaderMainMenu.Size = new System.Drawing.Size(482, 67);
+            this.btnLeaderMainMenu.TabIndex = 5;
+            this.btnLeaderMainMenu.Text = "Main Menu";
+            this.btnLeaderMainMenu.UseVisualStyleBackColor = false;
+            this.btnLeaderMainMenu.Click += new System.EventHandler(this.btnLeaderMainMenu_Click);
             // 
             // tableLayoutPanel3
             // 
@@ -127,7 +204,8 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel3.Controls.Add(this.lblScore4, 0, 3);
             this.tableLayoutPanel3.Controls.Add(this.lblScore5, 0, 4);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(276, 125);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(552, 241);
+            this.tableLayoutPanel3.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 6;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -135,64 +213,9 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(247, 301);
+            this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 77F));
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(494, 579);
             this.tableLayoutPanel3.TabIndex = 2;
-            // 
-            // lblHighScoreTitle
-            // 
-            this.lblHighScoreTitle.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblHighScoreTitle.AutoSize = true;
-            this.lblHighScoreTitle.Font = new System.Drawing.Font("Copperplate Gothic Light", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHighScoreTitle.Location = new System.Drawing.Point(44, 10);
-            this.lblHighScoreTitle.Name = "lblHighScoreTitle";
-            this.lblHighScoreTitle.Size = new System.Drawing.Size(200, 31);
-            this.lblHighScoreTitle.TabIndex = 0;
-            this.lblHighScoreTitle.Text = "High Score:";
-            // 
-            // lblScore2Title
-            // 
-            this.lblScore2Title.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblScore2Title.AutoSize = true;
-            this.lblScore2Title.Font = new System.Drawing.Font("Copperplate Gothic Light", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblScore2Title.Location = new System.Drawing.Point(94, 62);
-            this.lblScore2Title.Name = "lblScore2Title";
-            this.lblScore2Title.Size = new System.Drawing.Size(150, 31);
-            this.lblScore2Title.TabIndex = 1;
-            this.lblScore2Title.Text = "Score 2:";
-            // 
-            // lblScore3Title
-            // 
-            this.lblScore3Title.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblScore3Title.AutoSize = true;
-            this.lblScore3Title.Font = new System.Drawing.Font("Copperplate Gothic Light", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblScore3Title.Location = new System.Drawing.Point(94, 114);
-            this.lblScore3Title.Name = "lblScore3Title";
-            this.lblScore3Title.Size = new System.Drawing.Size(150, 31);
-            this.lblScore3Title.TabIndex = 2;
-            this.lblScore3Title.Text = "Score 3:";
-            // 
-            // lblScore4Title
-            // 
-            this.lblScore4Title.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblScore4Title.AutoSize = true;
-            this.lblScore4Title.Font = new System.Drawing.Font("Copperplate Gothic Light", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblScore4Title.Location = new System.Drawing.Point(94, 166);
-            this.lblScore4Title.Name = "lblScore4Title";
-            this.lblScore4Title.Size = new System.Drawing.Size(150, 31);
-            this.lblScore4Title.TabIndex = 3;
-            this.lblScore4Title.Text = "Score 4:";
-            // 
-            // lblScore5Title
-            // 
-            this.lblScore5Title.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.lblScore5Title.AutoSize = true;
-            this.lblScore5Title.Font = new System.Drawing.Font("Copperplate Gothic Light", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblScore5Title.Location = new System.Drawing.Point(94, 218);
-            this.lblScore5Title.Name = "lblScore5Title";
-            this.lblScore5Title.Size = new System.Drawing.Size(150, 31);
-            this.lblScore5Title.TabIndex = 4;
-            this.lblScore5Title.Text = "Score 5:";
             // 
             // lblHighScore
             // 
@@ -200,9 +223,10 @@ namespace CSC_317_Millionaire
             this.lblHighScore.AutoSize = true;
             this.lblHighScore.Font = new System.Drawing.Font("Copperplate Gothic Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHighScore.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblHighScore.Location = new System.Drawing.Point(53, 8);
+            this.lblHighScore.Location = new System.Drawing.Point(107, 14);
+            this.lblHighScore.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblHighScore.Name = "lblHighScore";
-            this.lblHighScore.Size = new System.Drawing.Size(140, 35);
+            this.lblHighScore.Size = new System.Drawing.Size(280, 72);
             this.lblHighScore.TabIndex = 0;
             this.lblHighScore.Text = "$5,000";
             // 
@@ -212,9 +236,10 @@ namespace CSC_317_Millionaire
             this.lblScore2.AutoSize = true;
             this.lblScore2.Font = new System.Drawing.Font("Copperplate Gothic Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblScore2.Location = new System.Drawing.Point(53, 60);
+            this.lblScore2.Location = new System.Drawing.Point(107, 114);
+            this.lblScore2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblScore2.Name = "lblScore2";
-            this.lblScore2.Size = new System.Drawing.Size(140, 35);
+            this.lblScore2.Size = new System.Drawing.Size(280, 72);
             this.lblScore2.TabIndex = 1;
             this.lblScore2.Text = "$3,000";
             // 
@@ -224,9 +249,10 @@ namespace CSC_317_Millionaire
             this.lblScore3.AutoSize = true;
             this.lblScore3.Font = new System.Drawing.Font("Copperplate Gothic Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblScore3.Location = new System.Drawing.Point(53, 112);
+            this.lblScore3.Location = new System.Drawing.Point(107, 214);
+            this.lblScore3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblScore3.Name = "lblScore3";
-            this.lblScore3.Size = new System.Drawing.Size(140, 35);
+            this.lblScore3.Size = new System.Drawing.Size(280, 72);
             this.lblScore3.TabIndex = 2;
             this.lblScore3.Text = "$2,000";
             // 
@@ -236,9 +262,10 @@ namespace CSC_317_Millionaire
             this.lblScore4.AutoSize = true;
             this.lblScore4.Font = new System.Drawing.Font("Copperplate Gothic Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblScore4.Location = new System.Drawing.Point(53, 164);
+            this.lblScore4.Location = new System.Drawing.Point(107, 314);
+            this.lblScore4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblScore4.Name = "lblScore4";
-            this.lblScore4.Size = new System.Drawing.Size(140, 35);
+            this.lblScore4.Size = new System.Drawing.Size(280, 72);
             this.lblScore4.TabIndex = 3;
             this.lblScore4.Text = "$1,000";
             // 
@@ -248,9 +275,10 @@ namespace CSC_317_Millionaire
             this.lblScore5.AutoSize = true;
             this.lblScore5.Font = new System.Drawing.Font("Copperplate Gothic Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblScore5.Location = new System.Drawing.Point(70, 216);
+            this.lblScore5.Location = new System.Drawing.Point(140, 414);
+            this.lblScore5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblScore5.Name = "lblScore5";
-            this.lblScore5.Size = new System.Drawing.Size(107, 35);
+            this.lblScore5.Size = new System.Drawing.Size(214, 72);
             this.lblScore5.TabIndex = 4;
             this.lblScore5.Text = "$500";
             // 
@@ -265,7 +293,8 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel4.Controls.Add(this.lblScore5Name, 0, 4);
             this.tableLayoutPanel4.Controls.Add(this.btnLeaderExitGame, 0, 5);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(529, 125);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(1058, 241);
+            this.tableLayoutPanel4.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 6;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
@@ -273,8 +302,8 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 40F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(247, 301);
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 77F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(494, 579);
             this.tableLayoutPanel4.TabIndex = 3;
             // 
             // lblHighScoreName
@@ -282,9 +311,10 @@ namespace CSC_317_Millionaire
             this.lblHighScoreName.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblHighScoreName.AutoSize = true;
             this.lblHighScoreName.Font = new System.Drawing.Font("Copperplate Gothic Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHighScoreName.Location = new System.Drawing.Point(3, 13);
+            this.lblHighScoreName.Location = new System.Drawing.Point(6, 24);
+            this.lblHighScoreName.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblHighScoreName.Name = "lblHighScoreName";
-            this.lblHighScoreName.Size = new System.Drawing.Size(182, 26);
+            this.lblHighScoreName.Size = new System.Drawing.Size(362, 52);
             this.lblHighScoreName.TabIndex = 0;
             this.lblHighScoreName.Text = "Susan Bones";
             // 
@@ -293,9 +323,10 @@ namespace CSC_317_Millionaire
             this.lblScore2Name.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblScore2Name.AutoSize = true;
             this.lblScore2Name.Font = new System.Drawing.Font("Copperplate Gothic Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblScore2Name.Location = new System.Drawing.Point(3, 65);
+            this.lblScore2Name.Location = new System.Drawing.Point(6, 124);
+            this.lblScore2Name.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblScore2Name.Name = "lblScore2Name";
-            this.lblScore2Name.Size = new System.Drawing.Size(121, 26);
+            this.lblScore2Name.Size = new System.Drawing.Size(242, 52);
             this.lblScore2Name.TabIndex = 1;
             this.lblScore2Name.Text = "Henry E.";
             // 
@@ -304,9 +335,10 @@ namespace CSC_317_Millionaire
             this.lblScore3Name.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblScore3Name.AutoSize = true;
             this.lblScore3Name.Font = new System.Drawing.Font("Copperplate Gothic Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblScore3Name.Location = new System.Drawing.Point(3, 117);
+            this.lblScore3Name.Location = new System.Drawing.Point(6, 224);
+            this.lblScore3Name.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblScore3Name.Name = "lblScore3Name";
-            this.lblScore3Name.Size = new System.Drawing.Size(77, 26);
+            this.lblScore3Name.Size = new System.Drawing.Size(154, 52);
             this.lblScore3Name.TabIndex = 2;
             this.lblScore3Name.Text = "Mary";
             // 
@@ -315,9 +347,10 @@ namespace CSC_317_Millionaire
             this.lblScore4Name.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblScore4Name.AutoSize = true;
             this.lblScore4Name.Font = new System.Drawing.Font("Copperplate Gothic Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblScore4Name.Location = new System.Drawing.Point(3, 169);
+            this.lblScore4Name.Location = new System.Drawing.Point(6, 324);
+            this.lblScore4Name.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblScore4Name.Name = "lblScore4Name";
-            this.lblScore4Name.Size = new System.Drawing.Size(160, 26);
+            this.lblScore4Name.Size = new System.Drawing.Size(323, 52);
             this.lblScore4Name.TabIndex = 3;
             this.lblScore4Name.Text = "l4meg4m3r";
             // 
@@ -326,33 +359,22 @@ namespace CSC_317_Millionaire
             this.lblScore5Name.Anchor = System.Windows.Forms.AnchorStyles.Left;
             this.lblScore5Name.AutoSize = true;
             this.lblScore5Name.Font = new System.Drawing.Font("Copperplate Gothic Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblScore5Name.Location = new System.Drawing.Point(3, 221);
+            this.lblScore5Name.Location = new System.Drawing.Point(6, 424);
+            this.lblScore5Name.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.lblScore5Name.Name = "lblScore5Name";
-            this.lblScore5Name.Size = new System.Drawing.Size(155, 26);
+            this.lblScore5Name.Size = new System.Drawing.Size(311, 52);
             this.lblScore5Name.TabIndex = 4;
             this.lblScore5Name.Text = "John Smith";
-            // 
-            // btnLeaderMainMenu
-            // 
-            this.btnLeaderMainMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.btnLeaderMainMenu.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnLeaderMainMenu.Font = new System.Drawing.Font("Copperplate Gothic Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLeaderMainMenu.Location = new System.Drawing.Point(3, 263);
-            this.btnLeaderMainMenu.Name = "btnLeaderMainMenu";
-            this.btnLeaderMainMenu.Size = new System.Drawing.Size(241, 35);
-            this.btnLeaderMainMenu.TabIndex = 5;
-            this.btnLeaderMainMenu.Text = "Main Menu";
-            this.btnLeaderMainMenu.UseVisualStyleBackColor = false;
-            this.btnLeaderMainMenu.Click += new System.EventHandler(this.btnLeaderMainMenu_Click);
             // 
             // btnLeaderExitGame
             // 
             this.btnLeaderExitGame.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnLeaderExitGame.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnLeaderExitGame.Font = new System.Drawing.Font("Copperplate Gothic Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLeaderExitGame.Location = new System.Drawing.Point(3, 263);
+            this.btnLeaderExitGame.Location = new System.Drawing.Point(6, 506);
+            this.btnLeaderExitGame.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.btnLeaderExitGame.Name = "btnLeaderExitGame";
-            this.btnLeaderExitGame.Size = new System.Drawing.Size(241, 35);
+            this.btnLeaderExitGame.Size = new System.Drawing.Size(482, 67);
             this.btnLeaderExitGame.TabIndex = 5;
             this.btnLeaderExitGame.Text = "Exit Game";
             this.btnLeaderExitGame.UseVisualStyleBackColor = false;
@@ -360,10 +382,11 @@ namespace CSC_317_Millionaire
             // 
             // LeaderForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1600, 865);
             this.Controls.Add(this.tableLayoutPanel1);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.Name = "LeaderForm";
             this.Text = "Leaderboard";
             this.tableLayoutPanel1.ResumeLayout(false);

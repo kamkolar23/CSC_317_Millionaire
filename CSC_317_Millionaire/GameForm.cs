@@ -251,7 +251,8 @@ namespace CSC_317_Millionaire
                         score = "$500,000";
                         break;
                     case 15:
-                        score = "$1,000,000";
+                        //score = "$1,000,000";
+                        score = "Millionaire!";
                         break;
                 }
 
@@ -368,7 +369,8 @@ namespace CSC_317_Millionaire
                         score = "$500,000";
                         break;
                     case 15:
-                        score = "$1,000,000";
+                        // score = "$1,000,000";
+                        score = "Millionaire!";
                         break;
                 }
 
@@ -486,7 +488,8 @@ namespace CSC_317_Millionaire
                         score = "$500,000";
                         break;
                     case 15:
-                        score = "$1,000,000";
+                        // score = "$1,000,000";
+                        score = "Millionaire!";
                         break;
                 }
 
@@ -604,7 +607,8 @@ namespace CSC_317_Millionaire
                         score = "$500,000";
                         break;
                     case 15:
-                        score = "$1,000,000";
+                        // score = "$1,000,000";
+                        score = "Millionaire!";
                         break;
                 }
 
