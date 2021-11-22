@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSC_317_Millionaire", "CSC_317_Millionaire\CSC_317_Millionaire.csproj", "{3141A027-3B63-46C4-B694-0A19C8E6C25D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A47E1687-D50D-4E0E-9B1F-1DB0D791AAC7}"
+	ProjectSection(SolutionItems) = preProject
+		Leaderboard.txt = Leaderboard.txt
+		Tier1Questions.txt = Tier1Questions.txt
+		Tier2Questions.txt = Tier2Questions.txt
+		Tier3Questions.txt = Tier3Questions.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
