@@ -35,10 +35,10 @@ namespace CSC_317_Millionaire
             this.lblPlayerScore = new System.Windows.Forms.Label();
             this.lblPlayerNameTitle = new System.Windows.Forms.Label();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
-            this.btnScoreEntryMainMenu = new System.Windows.Forms.Button();
-            this.btnScoreEntryExitGame = new System.Windows.Forms.Button();
             this.txtPlayerName = new System.Windows.Forms.TextBox();
             this.btnEnterPlayerName = new System.Windows.Forms.Button();
+            this.btnScoreEntryMainMenu = new System.Windows.Forms.Button();
+            this.btnScoreEntryExitGame = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tableLayoutPanel2.SuspendLayout();
@@ -69,7 +69,7 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 450);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(838, 441);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // pictureBox1
@@ -79,7 +79,7 @@ namespace CSC_317_Millionaire
             this.pictureBox1.Image = global::CSC_317_Millionaire.Properties.Resources.Millionaire_Logo;
             this.pictureBox1.Location = new System.Drawing.Point(23, 23);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(754, 199);
+            this.pictureBox1.Size = new System.Drawing.Size(792, 194);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -89,7 +89,7 @@ namespace CSC_317_Millionaire
             this.lblPlayerScoreTitle.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblPlayerScoreTitle.AutoSize = true;
             this.lblPlayerScoreTitle.Font = new System.Drawing.Font("Copperplate Gothic Light", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlayerScoreTitle.Location = new System.Drawing.Point(96, 248);
+            this.lblPlayerScoreTitle.Location = new System.Drawing.Point(105, 242);
             this.lblPlayerScoreTitle.Name = "lblPlayerScoreTitle";
             this.lblPlayerScoreTitle.Size = new System.Drawing.Size(228, 35);
             this.lblPlayerScoreTitle.TabIndex = 1;
@@ -101,7 +101,7 @@ namespace CSC_317_Millionaire
             this.lblPlayerScore.AutoSize = true;
             this.lblPlayerScore.Font = new System.Drawing.Font("Copperplate Gothic Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPlayerScore.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblPlayerScore.Location = new System.Drawing.Point(464, 248);
+            this.lblPlayerScore.Location = new System.Drawing.Point(492, 242);
             this.lblPlayerScore.Name = "lblPlayerScore";
             this.lblPlayerScore.Size = new System.Drawing.Size(252, 35);
             this.lblPlayerScore.TabIndex = 2;
@@ -112,7 +112,7 @@ namespace CSC_317_Millionaire
             this.lblPlayerNameTitle.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblPlayerNameTitle.AutoSize = true;
             this.lblPlayerNameTitle.Font = new System.Drawing.Font("Copperplate Gothic Light", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPlayerNameTitle.Location = new System.Drawing.Point(50, 330);
+            this.lblPlayerNameTitle.Location = new System.Drawing.Point(60, 322);
             this.lblPlayerNameTitle.Name = "lblPlayerNameTitle";
             this.lblPlayerNameTitle.Size = new System.Drawing.Size(319, 35);
             this.lblPlayerNameTitle.TabIndex = 3;
@@ -126,14 +126,36 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel2.Controls.Add(this.txtPlayerName, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.btnEnterPlayerName, 1, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(403, 310);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(422, 303);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 3;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 60F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(374, 76);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(393, 74);
             this.tableLayoutPanel2.TabIndex = 4;
+            // 
+            // txtPlayerName
+            // 
+            this.txtPlayerName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtPlayerName.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPlayerName.Location = new System.Drawing.Point(3, 17);
+            this.txtPlayerName.Multiline = true;
+            this.txtPlayerName.Name = "txtPlayerName";
+            this.txtPlayerName.Size = new System.Drawing.Size(288, 38);
+            this.txtPlayerName.TabIndex = 0;
+            // 
+            // btnEnterPlayerName
+            // 
+            this.btnEnterPlayerName.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnEnterPlayerName.Font = new System.Drawing.Font("Copperplate Gothic Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEnterPlayerName.Location = new System.Drawing.Point(297, 17);
+            this.btnEnterPlayerName.Name = "btnEnterPlayerName";
+            this.btnEnterPlayerName.Size = new System.Drawing.Size(93, 38);
+            this.btnEnterPlayerName.TabIndex = 1;
+            this.btnEnterPlayerName.Text = "Enter";
+            this.btnEnterPlayerName.UseVisualStyleBackColor = true;
+            this.btnEnterPlayerName.Click += new System.EventHandler(this.btnEnterPlayerName_Click);
             // 
             // btnScoreEntryMainMenu
             // 
@@ -141,9 +163,9 @@ namespace CSC_317_Millionaire
             this.btnScoreEntryMainMenu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnScoreEntryMainMenu.Font = new System.Drawing.Font("Copperplate Gothic Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnScoreEntryMainMenu.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnScoreEntryMainMenu.Location = new System.Drawing.Point(23, 392);
+            this.btnScoreEntryMainMenu.Location = new System.Drawing.Point(23, 383);
             this.btnScoreEntryMainMenu.Name = "btnScoreEntryMainMenu";
-            this.btnScoreEntryMainMenu.Size = new System.Drawing.Size(374, 35);
+            this.btnScoreEntryMainMenu.Size = new System.Drawing.Size(393, 34);
             this.btnScoreEntryMainMenu.TabIndex = 5;
             this.btnScoreEntryMainMenu.Text = "Main Menu";
             this.btnScoreEntryMainMenu.UseVisualStyleBackColor = false;
@@ -155,41 +177,19 @@ namespace CSC_317_Millionaire
             this.btnScoreEntryExitGame.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnScoreEntryExitGame.Font = new System.Drawing.Font("Copperplate Gothic Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnScoreEntryExitGame.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnScoreEntryExitGame.Location = new System.Drawing.Point(403, 392);
+            this.btnScoreEntryExitGame.Location = new System.Drawing.Point(422, 383);
             this.btnScoreEntryExitGame.Name = "btnScoreEntryExitGame";
-            this.btnScoreEntryExitGame.Size = new System.Drawing.Size(374, 35);
+            this.btnScoreEntryExitGame.Size = new System.Drawing.Size(393, 34);
             this.btnScoreEntryExitGame.TabIndex = 6;
             this.btnScoreEntryExitGame.Text = "Exit Game";
             this.btnScoreEntryExitGame.UseVisualStyleBackColor = false;
             this.btnScoreEntryExitGame.Click += new System.EventHandler(this.btnScoreEntryExitGame_Click);
             // 
-            // txtPlayerName
-            // 
-            this.txtPlayerName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtPlayerName.Font = new System.Drawing.Font("Candara", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPlayerName.Location = new System.Drawing.Point(3, 18);
-            this.txtPlayerName.Multiline = true;
-            this.txtPlayerName.Name = "txtPlayerName";
-            this.txtPlayerName.Size = new System.Drawing.Size(274, 39);
-            this.txtPlayerName.TabIndex = 0;
-            // 
-            // btnEnterPlayerName
-            // 
-            this.btnEnterPlayerName.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnEnterPlayerName.Font = new System.Drawing.Font("Copperplate Gothic Light", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnterPlayerName.Location = new System.Drawing.Point(283, 18);
-            this.btnEnterPlayerName.Name = "btnEnterPlayerName";
-            this.btnEnterPlayerName.Size = new System.Drawing.Size(88, 39);
-            this.btnEnterPlayerName.TabIndex = 1;
-            this.btnEnterPlayerName.Text = "Enter";
-            this.btnEnterPlayerName.UseVisualStyleBackColor = true;
-            this.btnEnterPlayerName.Click += new System.EventHandler(this.btnEnterPlayerName_Click);
-            // 
             // ScoreEntryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(838, 441);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "ScoreEntryForm";
             this.Text = "Leaderboard Entry";

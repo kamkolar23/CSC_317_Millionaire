@@ -91,7 +91,7 @@ namespace CSC_317_Millionaire
             this.tblGameBG.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tblGameBG.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 10F));
             this.tblGameBG.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tblGameBG.Size = new System.Drawing.Size(800, 450);
+            this.tblGameBG.Size = new System.Drawing.Size(838, 441);
             this.tblGameBG.TabIndex = 0;
             // 
             // tblGameMain
@@ -112,7 +112,7 @@ namespace CSC_317_Millionaire
             this.tblGameMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             this.tblGameMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tblGameMain.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 40F));
-            this.tblGameMain.Size = new System.Drawing.Size(579, 424);
+            this.tblGameMain.Size = new System.Drawing.Size(607, 415);
             this.tblGameMain.TabIndex = 0;
             // 
             // lblQuestionContents
@@ -120,7 +120,7 @@ namespace CSC_317_Millionaire
             this.lblQuestionContents.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblQuestionContents.AutoSize = true;
             this.lblQuestionContents.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblQuestionContents.Location = new System.Drawing.Point(133, 69);
+            this.lblQuestionContents.Location = new System.Drawing.Point(147, 68);
             this.lblQuestionContents.Name = "lblQuestionContents";
             this.lblQuestionContents.Size = new System.Drawing.Size(312, 29);
             this.lblQuestionContents.TabIndex = 1;
@@ -138,12 +138,12 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel1.Controls.Add(this.btn5050, 2, 0);
             this.tableLayoutPanel1.Controls.Add(this.btnKeepGoing, 3, 0);
             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 129);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 127);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(573, 36);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(601, 35);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // btnTakeMoney
@@ -153,7 +153,7 @@ namespace CSC_317_Millionaire
             this.btnTakeMoney.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTakeMoney.Location = new System.Drawing.Point(3, 3);
             this.btnTakeMoney.Name = "btnTakeMoney";
-            this.btnTakeMoney.Size = new System.Drawing.Size(137, 30);
+            this.btnTakeMoney.Size = new System.Drawing.Size(144, 29);
             this.btnTakeMoney.TabIndex = 0;
             this.btnTakeMoney.Text = "Take the Money...";
             this.btnTakeMoney.UseVisualStyleBackColor = false;
@@ -166,9 +166,9 @@ namespace CSC_317_Millionaire
             this.btnHint.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnHint.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnHint.ForeColor = System.Drawing.Color.White;
-            this.btnHint.Location = new System.Drawing.Point(146, 3);
+            this.btnHint.Location = new System.Drawing.Point(153, 3);
             this.btnHint.Name = "btnHint";
-            this.btnHint.Size = new System.Drawing.Size(137, 30);
+            this.btnHint.Size = new System.Drawing.Size(144, 29);
             this.btnHint.TabIndex = 1;
             this.btnHint.Text = "Hint";
             this.btnHint.UseVisualStyleBackColor = false;
@@ -180,9 +180,9 @@ namespace CSC_317_Millionaire
             this.btn5050.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn5050.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn5050.ForeColor = System.Drawing.Color.White;
-            this.btn5050.Location = new System.Drawing.Point(289, 3);
+            this.btn5050.Location = new System.Drawing.Point(303, 3);
             this.btn5050.Name = "btn5050";
-            this.btn5050.Size = new System.Drawing.Size(137, 30);
+            this.btn5050.Size = new System.Drawing.Size(144, 29);
             this.btn5050.TabIndex = 2;
             this.btn5050.Text = "50 / 50";
             this.btn5050.UseVisualStyleBackColor = false;
@@ -193,9 +193,9 @@ namespace CSC_317_Millionaire
             this.btnKeepGoing.BackColor = System.Drawing.Color.OliveDrab;
             this.btnKeepGoing.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnKeepGoing.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnKeepGoing.Location = new System.Drawing.Point(432, 3);
+            this.btnKeepGoing.Location = new System.Drawing.Point(453, 3);
             this.btnKeepGoing.Name = "btnKeepGoing";
-            this.btnKeepGoing.Size = new System.Drawing.Size(138, 30);
+            this.btnKeepGoing.Size = new System.Drawing.Size(145, 29);
             this.btnKeepGoing.TabIndex = 3;
             this.btnKeepGoing.Text = "Keep Going!";
             this.btnKeepGoing.UseVisualStyleBackColor = false;
@@ -212,12 +212,12 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel2.Controls.Add(this.btnAnswer3, 0, 1);
             this.tableLayoutPanel2.Controls.Add(this.btnAnswer4, 1, 1);
             this.tableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 255);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(3, 251);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 2;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(573, 166);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(601, 161);
             this.tableLayoutPanel2.TabIndex = 3;
             // 
             // btnAnswer1
@@ -227,7 +227,7 @@ namespace CSC_317_Millionaire
             this.btnAnswer1.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAnswer1.Location = new System.Drawing.Point(3, 3);
             this.btnAnswer1.Name = "btnAnswer1";
-            this.btnAnswer1.Size = new System.Drawing.Size(280, 77);
+            this.btnAnswer1.Size = new System.Drawing.Size(294, 74);
             this.btnAnswer1.TabIndex = 0;
             this.btnAnswer1.Text = "Answer 1 Text";
             this.btnAnswer1.UseVisualStyleBackColor = false;
@@ -238,9 +238,9 @@ namespace CSC_317_Millionaire
             this.btnAnswer2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnAnswer2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnAnswer2.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnswer2.Location = new System.Drawing.Point(289, 3);
+            this.btnAnswer2.Location = new System.Drawing.Point(303, 3);
             this.btnAnswer2.Name = "btnAnswer2";
-            this.btnAnswer2.Size = new System.Drawing.Size(281, 77);
+            this.btnAnswer2.Size = new System.Drawing.Size(295, 74);
             this.btnAnswer2.TabIndex = 1;
             this.btnAnswer2.Text = "Answer 2 Text";
             this.btnAnswer2.UseVisualStyleBackColor = false;
@@ -251,9 +251,9 @@ namespace CSC_317_Millionaire
             this.btnAnswer3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnAnswer3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnAnswer3.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnswer3.Location = new System.Drawing.Point(3, 86);
+            this.btnAnswer3.Location = new System.Drawing.Point(3, 83);
             this.btnAnswer3.Name = "btnAnswer3";
-            this.btnAnswer3.Size = new System.Drawing.Size(280, 77);
+            this.btnAnswer3.Size = new System.Drawing.Size(294, 75);
             this.btnAnswer3.TabIndex = 2;
             this.btnAnswer3.Text = "Answer 3 Text";
             this.btnAnswer3.UseVisualStyleBackColor = false;
@@ -264,9 +264,9 @@ namespace CSC_317_Millionaire
             this.btnAnswer4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnAnswer4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnAnswer4.Font = new System.Drawing.Font("Copperplate Gothic Bold", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAnswer4.Location = new System.Drawing.Point(289, 86);
+            this.btnAnswer4.Location = new System.Drawing.Point(303, 83);
             this.btnAnswer4.Name = "btnAnswer4";
-            this.btnAnswer4.Size = new System.Drawing.Size(281, 77);
+            this.btnAnswer4.Size = new System.Drawing.Size(295, 75);
             this.btnAnswer4.TabIndex = 3;
             this.btnAnswer4.Text = "Answer 4 Text";
             this.btnAnswer4.UseVisualStyleBackColor = false;
@@ -277,7 +277,7 @@ namespace CSC_317_Millionaire
             this.lblHintText.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblHintText.AutoSize = true;
             this.lblHintText.Font = new System.Drawing.Font("Candara", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblHintText.Location = new System.Drawing.Point(155, 195);
+            this.lblHintText.Location = new System.Drawing.Point(169, 192);
             this.lblHintText.Name = "lblHintText";
             this.lblHintText.Size = new System.Drawing.Size(269, 29);
             this.lblHintText.TabIndex = 4;
@@ -297,7 +297,7 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel4.RowCount = 1;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 36F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(573, 36);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(601, 35);
             this.tableLayoutPanel4.TabIndex = 5;
             // 
             // lblQuestionNumTitle
@@ -306,7 +306,7 @@ namespace CSC_317_Millionaire
             this.lblQuestionNumTitle.AutoSize = true;
             this.lblQuestionNumTitle.Font = new System.Drawing.Font("Copperplate Gothic Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblQuestionNumTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblQuestionNumTitle.Location = new System.Drawing.Point(64, 0);
+            this.lblQuestionNumTitle.Location = new System.Drawing.Point(75, 0);
             this.lblQuestionNumTitle.Name = "lblQuestionNumTitle";
             this.lblQuestionNumTitle.Padding = new System.Windows.Forms.Padding(120, 0, 0, 0);
             this.lblQuestionNumTitle.Size = new System.Drawing.Size(330, 35);
@@ -318,7 +318,7 @@ namespace CSC_317_Millionaire
             this.lblTimer.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblTimer.AutoSize = true;
             this.lblTimer.Font = new System.Drawing.Font("Copperplate Gothic Bold", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTimer.Location = new System.Drawing.Point(490, 3);
+            this.lblTimer.Location = new System.Drawing.Point(515, 2);
             this.lblTimer.Name = "lblTimer";
             this.lblTimer.Size = new System.Drawing.Size(51, 30);
             this.lblTimer.TabIndex = 1;
@@ -346,7 +346,7 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel3.Controls.Add(this.lbl1000, 0, 14);
             this.tableLayoutPanel3.Controls.Add(this.lbl500, 0, 15);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(598, 13);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(626, 13);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 16;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.25F));
@@ -365,30 +365,30 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.25F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.25F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 6.25F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(189, 424);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(198, 415);
             this.tableLayoutPanel3.TabIndex = 1;
             // 
             // lblCurrentMoney
             // 
             this.lblCurrentMoney.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblCurrentMoney.AutoSize = true;
-            this.lblCurrentMoney.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCurrentMoney.Font = new System.Drawing.Font("Copperplate Gothic Bold", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCurrentMoney.ForeColor = System.Drawing.Color.Black;
-            this.lblCurrentMoney.Location = new System.Drawing.Point(12, 5);
+            this.lblCurrentMoney.Location = new System.Drawing.Point(15, 2);
             this.lblCurrentMoney.Name = "lblCurrentMoney";
-            this.lblCurrentMoney.Size = new System.Drawing.Size(164, 15);
+            this.lblCurrentMoney.Size = new System.Drawing.Size(167, 21);
             this.lblCurrentMoney.TabIndex = 0;
-            this.lblCurrentMoney.Text = "Current Money Level";
+            this.lblCurrentMoney.Text = "Current Level";
             // 
             // lbl1000000
             // 
             this.lbl1000000.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl1000000.AutoSize = true;
-            this.lbl1000000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl1000000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl1000000.ForeColor = System.Drawing.Color.White;
-            this.lbl1000000.Location = new System.Drawing.Point(36, 31);
+            this.lbl1000000.Location = new System.Drawing.Point(27, 28);
             this.lbl1000000.Name = "lbl1000000";
-            this.lbl1000000.Size = new System.Drawing.Size(117, 15);
+            this.lbl1000000.Size = new System.Drawing.Size(144, 18);
             this.lbl1000000.TabIndex = 1;
             this.lbl1000000.Text = "15    $1,000,000";
             // 
@@ -396,11 +396,11 @@ namespace CSC_317_Millionaire
             // 
             this.lbl500000.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl500000.AutoSize = true;
-            this.lbl500000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl500000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl500000.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl500000.Location = new System.Drawing.Point(42, 57);
+            this.lbl500000.Location = new System.Drawing.Point(35, 53);
             this.lbl500000.Name = "lbl500000";
-            this.lbl500000.Size = new System.Drawing.Size(104, 15);
+            this.lbl500000.Size = new System.Drawing.Size(128, 18);
             this.lbl500000.TabIndex = 2;
             this.lbl500000.Text = "14    $500,000";
             // 
@@ -408,11 +408,11 @@ namespace CSC_317_Millionaire
             // 
             this.lbl250000.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl250000.AutoSize = true;
-            this.lbl250000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl250000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl250000.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl250000.Location = new System.Drawing.Point(42, 83);
+            this.lbl250000.Location = new System.Drawing.Point(35, 78);
             this.lbl250000.Name = "lbl250000";
-            this.lbl250000.Size = new System.Drawing.Size(104, 15);
+            this.lbl250000.Size = new System.Drawing.Size(128, 18);
             this.lbl250000.TabIndex = 3;
             this.lbl250000.Text = "13    $250,000";
             // 
@@ -420,11 +420,11 @@ namespace CSC_317_Millionaire
             // 
             this.lbl150000.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl150000.AutoSize = true;
-            this.lbl150000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl150000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl150000.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl150000.Location = new System.Drawing.Point(42, 109);
+            this.lbl150000.Location = new System.Drawing.Point(35, 103);
             this.lbl150000.Name = "lbl150000";
-            this.lbl150000.Size = new System.Drawing.Size(104, 15);
+            this.lbl150000.Size = new System.Drawing.Size(128, 18);
             this.lbl150000.TabIndex = 4;
             this.lbl150000.Text = "12    $150,000";
             // 
@@ -432,11 +432,11 @@ namespace CSC_317_Millionaire
             // 
             this.lbl75000.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl75000.AutoSize = true;
-            this.lbl75000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl75000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl75000.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl75000.Location = new System.Drawing.Point(47, 135);
+            this.lbl75000.Location = new System.Drawing.Point(40, 128);
             this.lbl75000.Name = "lbl75000";
-            this.lbl75000.Size = new System.Drawing.Size(95, 15);
+            this.lbl75000.Size = new System.Drawing.Size(117, 18);
             this.lbl75000.TabIndex = 5;
             this.lbl75000.Text = "11    $75,000";
             // 
@@ -444,11 +444,11 @@ namespace CSC_317_Millionaire
             // 
             this.lbl50000.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl50000.AutoSize = true;
-            this.lbl50000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl50000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl50000.ForeColor = System.Drawing.Color.White;
-            this.lbl50000.Location = new System.Drawing.Point(47, 161);
+            this.lbl50000.Location = new System.Drawing.Point(40, 153);
             this.lbl50000.Name = "lbl50000";
-            this.lbl50000.Size = new System.Drawing.Size(95, 15);
+            this.lbl50000.Size = new System.Drawing.Size(117, 18);
             this.lbl50000.TabIndex = 6;
             this.lbl50000.Text = "10    $50,000";
             // 
@@ -456,11 +456,11 @@ namespace CSC_317_Millionaire
             // 
             this.lbl25000.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl25000.AutoSize = true;
-            this.lbl25000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl25000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl25000.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl25000.Location = new System.Drawing.Point(51, 187);
+            this.lbl25000.Location = new System.Drawing.Point(46, 178);
             this.lbl25000.Name = "lbl25000";
-            this.lbl25000.Size = new System.Drawing.Size(86, 15);
+            this.lbl25000.Size = new System.Drawing.Size(106, 18);
             this.lbl25000.TabIndex = 7;
             this.lbl25000.Text = "9    $25,000";
             // 
@@ -468,11 +468,11 @@ namespace CSC_317_Millionaire
             // 
             this.lbl15000.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl15000.AutoSize = true;
-            this.lbl15000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl15000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl15000.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl15000.Location = new System.Drawing.Point(51, 213);
+            this.lbl15000.Location = new System.Drawing.Point(46, 203);
             this.lbl15000.Name = "lbl15000";
-            this.lbl15000.Size = new System.Drawing.Size(86, 15);
+            this.lbl15000.Size = new System.Drawing.Size(106, 18);
             this.lbl15000.TabIndex = 8;
             this.lbl15000.Text = "8    $15,000";
             // 
@@ -480,11 +480,11 @@ namespace CSC_317_Millionaire
             // 
             this.lbl10000.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl10000.AutoSize = true;
-            this.lbl10000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl10000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl10000.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl10000.Location = new System.Drawing.Point(51, 239);
+            this.lbl10000.Location = new System.Drawing.Point(46, 228);
             this.lbl10000.Name = "lbl10000";
-            this.lbl10000.Size = new System.Drawing.Size(86, 15);
+            this.lbl10000.Size = new System.Drawing.Size(106, 18);
             this.lbl10000.TabIndex = 9;
             this.lbl10000.Text = "7    $10,000";
             // 
@@ -492,11 +492,11 @@ namespace CSC_317_Millionaire
             // 
             this.lbl7500.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl7500.AutoSize = true;
-            this.lbl7500.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl7500.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl7500.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl7500.Location = new System.Drawing.Point(56, 265);
+            this.lbl7500.Location = new System.Drawing.Point(51, 253);
             this.lbl7500.Name = "lbl7500";
-            this.lbl7500.Size = new System.Drawing.Size(77, 15);
+            this.lbl7500.Size = new System.Drawing.Size(95, 18);
             this.lbl7500.TabIndex = 10;
             this.lbl7500.Text = "6    $7,500";
             // 
@@ -504,11 +504,11 @@ namespace CSC_317_Millionaire
             // 
             this.lbl5000.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl5000.AutoSize = true;
-            this.lbl5000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl5000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl5000.ForeColor = System.Drawing.Color.White;
-            this.lbl5000.Location = new System.Drawing.Point(56, 291);
+            this.lbl5000.Location = new System.Drawing.Point(51, 278);
             this.lbl5000.Name = "lbl5000";
-            this.lbl5000.Size = new System.Drawing.Size(77, 15);
+            this.lbl5000.Size = new System.Drawing.Size(95, 18);
             this.lbl5000.TabIndex = 11;
             this.lbl5000.Text = "5    $5,000";
             // 
@@ -516,11 +516,11 @@ namespace CSC_317_Millionaire
             // 
             this.lbl3000.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl3000.AutoSize = true;
-            this.lbl3000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl3000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl3000.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl3000.Location = new System.Drawing.Point(56, 317);
+            this.lbl3000.Location = new System.Drawing.Point(51, 303);
             this.lbl3000.Name = "lbl3000";
-            this.lbl3000.Size = new System.Drawing.Size(77, 15);
+            this.lbl3000.Size = new System.Drawing.Size(95, 18);
             this.lbl3000.TabIndex = 12;
             this.lbl3000.Text = "4    $3,000";
             // 
@@ -528,11 +528,11 @@ namespace CSC_317_Millionaire
             // 
             this.lbl2000.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl2000.AutoSize = true;
-            this.lbl2000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl2000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl2000.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl2000.Location = new System.Drawing.Point(56, 343);
+            this.lbl2000.Location = new System.Drawing.Point(51, 328);
             this.lbl2000.Name = "lbl2000";
-            this.lbl2000.Size = new System.Drawing.Size(77, 15);
+            this.lbl2000.Size = new System.Drawing.Size(95, 18);
             this.lbl2000.TabIndex = 13;
             this.lbl2000.Text = "3    $2,000";
             // 
@@ -540,11 +540,11 @@ namespace CSC_317_Millionaire
             // 
             this.lbl1000.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl1000.AutoSize = true;
-            this.lbl1000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl1000.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl1000.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl1000.Location = new System.Drawing.Point(56, 369);
+            this.lbl1000.Location = new System.Drawing.Point(51, 353);
             this.lbl1000.Name = "lbl1000";
-            this.lbl1000.Size = new System.Drawing.Size(77, 15);
+            this.lbl1000.Size = new System.Drawing.Size(95, 18);
             this.lbl1000.TabIndex = 14;
             this.lbl1000.Text = "2    $1,000";
             // 
@@ -553,11 +553,11 @@ namespace CSC_317_Millionaire
             this.lbl500.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl500.AutoSize = true;
             this.lbl500.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lbl500.Font = new System.Drawing.Font("Copperplate Gothic Bold", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl500.Font = new System.Drawing.Font("Copperplate Gothic Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl500.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lbl500.Location = new System.Drawing.Point(61, 398);
+            this.lbl500.Location = new System.Drawing.Point(58, 385);
             this.lbl500.Name = "lbl500";
-            this.lbl500.Size = new System.Drawing.Size(66, 17);
+            this.lbl500.Size = new System.Drawing.Size(81, 20);
             this.lbl500.TabIndex = 15;
             this.lbl500.Text = "1    $500";
             // 
@@ -570,7 +570,7 @@ namespace CSC_317_Millionaire
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(838, 441);
             this.Controls.Add(this.tblGameBG);
             this.Name = "GameForm";
             this.Text = "Who Wants To Be A Millionaire";

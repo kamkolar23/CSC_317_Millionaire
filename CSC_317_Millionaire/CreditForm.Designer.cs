@@ -67,7 +67,7 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(800, 450);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(838, 441);
             this.tableLayoutPanel1.TabIndex = 0;
             // 
             // lblCreditsTitle
@@ -77,7 +77,7 @@ namespace CSC_317_Millionaire
             this.tableLayoutPanel1.SetColumnSpan(this.lblCreditsTitle, 2);
             this.lblCreditsTitle.Font = new System.Drawing.Font("Copperplate Gothic Bold", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCreditsTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.lblCreditsTitle.Location = new System.Drawing.Point(284, 29);
+            this.lblCreditsTitle.Location = new System.Drawing.Point(303, 28);
             this.lblCreditsTitle.Name = "lblCreditsTitle";
             this.lblCreditsTitle.Size = new System.Drawing.Size(232, 53);
             this.lblCreditsTitle.TabIndex = 0;
@@ -89,7 +89,7 @@ namespace CSC_317_Millionaire
             this.lblShelbyM.AutoSize = true;
             this.tableLayoutPanel1.SetColumnSpan(this.lblShelbyM, 2);
             this.lblShelbyM.Font = new System.Drawing.Font("Copperplate Gothic Light", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblShelbyM.Location = new System.Drawing.Point(214, 108);
+            this.lblShelbyM.Location = new System.Drawing.Point(233, 105);
             this.lblShelbyM.Name = "lblShelbyM";
             this.lblShelbyM.Size = new System.Drawing.Size(372, 40);
             this.lblShelbyM.TabIndex = 1;
@@ -101,7 +101,7 @@ namespace CSC_317_Millionaire
             this.lblSantiagoS.AutoSize = true;
             this.tableLayoutPanel1.SetColumnSpan(this.lblSantiagoS, 2);
             this.lblSantiagoS.Font = new System.Drawing.Font("Copperplate Gothic Light", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSantiagoS.Location = new System.Drawing.Point(222, 180);
+            this.lblSantiagoS.Location = new System.Drawing.Point(241, 175);
             this.lblSantiagoS.Name = "lblSantiagoS";
             this.lblSantiagoS.Size = new System.Drawing.Size(356, 40);
             this.lblSantiagoS.TabIndex = 2;
@@ -113,7 +113,7 @@ namespace CSC_317_Millionaire
             this.lblJoannaP.AutoSize = true;
             this.tableLayoutPanel1.SetColumnSpan(this.lblJoannaP, 2);
             this.lblJoannaP.Font = new System.Drawing.Font("Copperplate Gothic Light", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblJoannaP.Location = new System.Drawing.Point(206, 252);
+            this.lblJoannaP.Location = new System.Drawing.Point(225, 245);
             this.lblJoannaP.Name = "lblJoannaP";
             this.lblJoannaP.Size = new System.Drawing.Size(387, 40);
             this.lblJoannaP.TabIndex = 3;
@@ -125,7 +125,7 @@ namespace CSC_317_Millionaire
             this.lblKameronK.AutoSize = true;
             this.tableLayoutPanel1.SetColumnSpan(this.lblKameronK, 2);
             this.lblKameronK.Font = new System.Drawing.Font("Copperplate Gothic Light", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblKameronK.Location = new System.Drawing.Point(235, 324);
+            this.lblKameronK.Location = new System.Drawing.Point(254, 315);
             this.lblKameronK.Name = "lblKameronK";
             this.lblKameronK.Size = new System.Drawing.Size(330, 40);
             this.lblKameronK.TabIndex = 4;
@@ -136,9 +136,9 @@ namespace CSC_317_Millionaire
             this.btnCreditsMainMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnCreditsMainMenu.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnCreditsMainMenu.Font = new System.Drawing.Font("Copperplate Gothic Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCreditsMainMenu.Location = new System.Drawing.Point(23, 383);
+            this.btnCreditsMainMenu.Location = new System.Drawing.Point(23, 373);
             this.btnCreditsMainMenu.Name = "btnCreditsMainMenu";
-            this.btnCreditsMainMenu.Size = new System.Drawing.Size(374, 44);
+            this.btnCreditsMainMenu.Size = new System.Drawing.Size(393, 44);
             this.btnCreditsMainMenu.TabIndex = 5;
             this.btnCreditsMainMenu.Text = "Main Menu";
             this.btnCreditsMainMenu.UseVisualStyleBackColor = false;
@@ -149,9 +149,9 @@ namespace CSC_317_Millionaire
             this.btnCreditsExitGame.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnCreditsExitGame.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btnCreditsExitGame.Font = new System.Drawing.Font("Copperplate Gothic Light", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCreditsExitGame.Location = new System.Drawing.Point(403, 383);
+            this.btnCreditsExitGame.Location = new System.Drawing.Point(422, 373);
             this.btnCreditsExitGame.Name = "btnCreditsExitGame";
-            this.btnCreditsExitGame.Size = new System.Drawing.Size(374, 44);
+            this.btnCreditsExitGame.Size = new System.Drawing.Size(393, 44);
             this.btnCreditsExitGame.TabIndex = 6;
             this.btnCreditsExitGame.Text = "Exit Game";
             this.btnCreditsExitGame.UseVisualStyleBackColor = false;
@@ -161,7 +161,7 @@ namespace CSC_317_Millionaire
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(838, 441);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "CreditForm";
             this.Text = "Credits";
