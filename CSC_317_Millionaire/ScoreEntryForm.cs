@@ -22,6 +22,15 @@ namespace CSC_317_Millionaire
 
         private void btnScoreEntryMainMenu_Click(object sender, EventArgs e)
         {
+            if (txtPlayerName.Text == "")
+            {
+                string playerName = "anonymous";
+
+                StreamWriter sw = new StreamWriter("Leaderboard.txt", true);
+                sw.WriteLine(playerName);
+                sw.Close();
+            }
+
             Form form = new MenuForm();
             form.Location = this.Location;
             form.StartPosition = FormStartPosition.Manual;
@@ -32,17 +41,37 @@ namespace CSC_317_Millionaire
 
         private void btnScoreEntryExitGame_Click(object sender, EventArgs e)
         {
+            if (txtPlayerName.Text == "")
+            {
+                string playerName = "anonymous";
+
+                StreamWriter sw = new StreamWriter("Leaderboard.txt", true);
+                sw.WriteLine(playerName);
+                sw.Close();
+            }
+
             System.Windows.Forms.Application.Exit();
         }
 
         private void btnEnterPlayerName_Click(object sender, EventArgs e)
         {
-            string playerName = txtPlayerName.Text;
-            txtPlayerName.Text = "";
+            if (txtPlayerName.Text == "")
+            {
+                string playerName = "anonymous";
 
-            StreamWriter sw = new StreamWriter("Leaderboard.txt", true);
-            sw.WriteLine(playerName);
-            sw.Close();
+                StreamWriter sw = new StreamWriter("Leaderboard.txt", true);
+                sw.WriteLine(playerName);
+                sw.Close();
+            }
+            else
+            {
+                string playerName = txtPlayerName.Text;
+                txtPlayerName.Text = "";
+
+                StreamWriter sw = new StreamWriter("Leaderboard.txt", true);
+                sw.WriteLine(playerName);
+                sw.Close();
+            }
         }
     }
 }
